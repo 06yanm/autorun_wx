@@ -7,7 +7,7 @@ import json
 appID = os.environ.get("APP_ID")
 appSecret = os.environ.get("APP_SECRET")
 openId = os.environ.get("OPEN_ID")
-template_id = os.environ.get("TEMPLATE_ID")
+template_id = os.environ.get("TV_TEMPLATE_ID")
 
 
 def get_access_token():
