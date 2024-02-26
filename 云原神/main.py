@@ -67,7 +67,7 @@ response = requests.get(url, headers=headers)
 response.encoding = "utf-8"
 data = json.loads(response.text)
 if data["retcode"] != 0:
-    c = data
+    c = "签到失败"
     t = "获取失败"
 else:
     coin = data["data"]["coin"]["coin_num"]
