@@ -66,16 +66,12 @@ headers = {
 response = requests.get(url, headers=headers)
 response.encoding = "utf-8"
 data = json.loads(response.text)
-# print(data)
 if data["retcode"] != 0:
-    c = "签到失败"
+    c = data
     t = "获取失败"
 else:
     coin = data["data"]["coin"]["coin_num"]
     time = data["data"]["free_time"]["free_time"]
-    card = data["data"]["play_card"]["expire"]
-    card_msg = data["data"]["play_card"]["short_msg"]
-    total_time = data["data"]["total_time"]
     c = f"签到成功"
     t = time + "分钟"
 
