@@ -36,5 +36,5 @@ jobs:
         APP_SECRET: ${{ secrets.APP_SECRET }}
         USER_ID: ${{ secrets.USER_ID }}
         YUAN_SHEN_TEMPLATE_ID: ${{ secrets.YUAN_SHEN_TEMPLATE_ID }}
-        YUAN_SHEN_COOKIE: $ {{ secrets.YUAN_SHEN_COOKIE }}
-        YUAN_SHEN_TOKEN: $ {{ secrets.YUAN_SHEN_TOKEN }}
+        YUAN_SHEN_COOKIE: ${{ secrets.YUAN_SHEN_COOKIE }}
+        YUAN_SHEN_TOKEN: ${{ secrets.YUAN_SHEN_TOKEN }}
