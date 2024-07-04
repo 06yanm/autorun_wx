@@ -4,4 +4,4 @@
 
 使用教程视频：
 
-<iframe height=498 width=510 src="https://v.douyin.com/i6x2rtHT/">
+https://v.douyin.com/i6x2rtHT
